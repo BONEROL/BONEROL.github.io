@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
-    <head> 
-        <title>welcome to our exclusive chocolate</title>
+    <head>
         <style>
-            #chocola {
-                width: 100%;
-            }
-                nav ul {
+                    nav ul {
         list-style-type: none;
         background-color: rgb(167, 100, 23);
         display: flex;
@@ -26,19 +22,25 @@
      #actief {
       	background-color: rgb(97, 52, 15);
       }
-      #footer{
+      #box{
         text-align: center;
+      }
+      .contact{
+        display: flex;
+        flex-wrap: wrap;
         justify-content: center;
+        text-align: center;
+        gap: 70px;
+        margin-top: 10%;
       }
         </style>
-       
-
     </head>
     <body>
-      <nav>
+        
+        <nav>
       <ul>
         <li>
-      	  <a id="actief" href="index.html">Home</a>
+      	  <a href="index.html">Home</a>
         </li>
         <li>
       	  <a href="producten.html">Producten</a>
@@ -47,17 +49,21 @@
       	  <a href="review.html">Reviews</a>
         </li>
         <li>
-      	  <a href="contact.html">Contact</a>
+      	  <a  id="actief" href="contact.html">Contact</a>
         </li>
       </ul>
     </nav>
-       
-
-        <div id="chocola">
-       <img src="image.png" alt="chocolate" id="chocola">
-
-      <footer>
-        <h5 id="footer">© 2026 Mijn website. Alle rechten voorbehouden.</h5>
-      </footer>
+       <h1 id="box">je kan ons contacteren op:</h1>
+       <div class="contact">
+       <a href="https://www.instgram.com">
+       <img src="insta.jpg" alt="insta">
+      </a>
+      <a href="https://www.x.com">
+        <img src="x.png" alt="x">
+      </a>
+      <a href="https://www.whatsapp.com">
+        <img src="whatsapp.png" alt="">
+      </a>
+    </div>
     </body>
 </html>
