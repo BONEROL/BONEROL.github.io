@@ -2,6 +2,29 @@
 <html>
     <head>
         <style>
+               <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <script>
+            $(document).ready(function(){
+
+                $(".tekst").click(function(){
+                    $("#winkelwagen").slideToggle(1000);
+
+                  
+                    
+                  
+                });
+            });
+        </script>
+        <style>
+            #winkelwagen{
+                display: none;
+                border: 1px solid black;
+                padding: 10px;
+                width: 200px;
+                margin-top: 20px;
+                background-color: rgb(191, 212, 212);
+                text-align: center;
+
             #chocola{
                 display: flex;
                 justify-content:center ;
@@ -57,6 +80,11 @@
         </li>
       </ul>
     </nav>
+        <div id="winkelwagen">
+            <h3> winkelwagen </h3>
+            <p> toegevoegt aan winkelwagen!</p>
+        </div>
+        
         <div id="chocola">
             <div>
             <img src="chocola1.jpg" alt="chocola" class="cocola1">
