@@ -1,0 +1,140 @@
+   #chocola{
+                display: flex;
+                justify-content:center ;
+                flex-direction: row;
+                gap: 40px;
+                flex-wrap: wrap;
+            }
+            img{
+                width: 100%;
+                height: 70%;
+            }
+            .tekst{
+                text-align: center;
+                color: rgb(75, 37, 1);
+            }
+                  nav ul {
+        list-style-type: none;
+        background-color: rgb(167, 100, 23);
+        display: flex;
+        justify-content: center;
+        padding: 8px; 
+      }
+     
+      nav ul li a {
+        color: rgb(236, 214, 214);
+        text-decoration: none;
+        padding: 8px; 
+        display: block; 
+      }
+      nav ul li a:hover {
+      	background-color: rgb(146, 81, 19);
+      }
+     #actief {
+      	background-color: rgb(97, 52, 15);
+      }
+      #alles{
+        background-color: rgb(207, 174, 111);
+      }
+
+         #chocola {
+                width: 100%;
+            }
+                nav ul {
+        list-style-type: none;
+        background-color: rgb(167, 100, 23);
+        display: flex;
+        justify-content: center;
+        padding: 8px; 
+      }
+     
+      nav ul li a {
+        color: rgb(236, 214, 214);
+        text-decoration: none;
+        padding: 8px; 
+        display: block; 
+      }
+      nav ul li a:hover {
+      	background-color: rgb(146, 81, 19);
+      }
+     #actief {
+      	background-color: rgb(97, 52, 15);
+      }
+      #footer{
+        text-align: center;
+        justify-content: center;
+      }
+      #hallo{
+        display: flex;
+        justify-content: space-around ;
+        flex-wrap: wrap;
+        gap: 5px;
+        width: 100%;
+      }
+      .chocola1 {
+        width: 30%;
+      }
+      .chocola1 img {
+        width: 100%;
+      }
+      .tekst1{
+        display: block;
+        justify-content: center;
+        color: rgb(146, 108, 58);
+      }
+                  nav ul {
+        list-style-type: none;
+        background-color: rgb(167, 100, 23);
+        display: flex;
+        justify-content: center;
+        padding: 8px; 
+      }
+     
+      nav ul li a {
+        color: rgb(236, 214, 214);
+        text-decoration: none;
+        padding: 8px; 
+        display: block; 
+      }
+      nav ul li a:hover {
+      	background-color: rgb(146, 81, 19);
+      }
+     #actief {
+      	background-color: rgb(97, 52, 15);
+      }
+      #box{
+        text-align: center;
+      }
+      .contact{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+        gap: 70px;
+        margin-top: 10%;
+      }
+                  nav ul {
+        list-style-type: none;
+        background-color: rgba(160, 100, 10, 0.473);
+        display: flex;
+        justify-content: center;
+        padding: 8px; 
+      }
+     
+      nav ul li a {
+        color: rgba(0, 0, 0, 0.418);
+        text-decoration: none;
+        padding: 8px; 
+        display: block; 
+      }
+      nav ul li a:hover {
+      	background-color: rgb(158, 107, 11);
+      }
+     #actief {
+      	background-color: rgb(100, 69, 3);
+      }
+      #review{
+        display: block;
+        flex-wrap: wrap;
+      }
+      
