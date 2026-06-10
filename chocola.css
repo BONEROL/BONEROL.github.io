@@ -57,11 +57,19 @@
        text-align: center;
       }
       .chocola2 {
-        width: 30%;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+      .tekst3{
+        display: flex;
+        justify-content: center;
+        
       }
       .chocola2 img{
-        width: 100;
+        width: 100%;
       }
+
       .tekst1{
         display: flex;
         flex-wrap: nowrap;
@@ -74,6 +82,11 @@
         display: flex;
         justify-content: center;
         padding: 8px; 
+      }
+      .chocola3{
+        width: 30%;
+        display: block;
+
       }
      
       nav ul li a {
@@ -98,4 +111,8 @@
         text-align: center;
         gap: 70px;
         margin-top: 10%;
+      }
+      .algemeen{
+        src: https://code.jquery.com/jquery-3.6.0.min.js;
+
       }
